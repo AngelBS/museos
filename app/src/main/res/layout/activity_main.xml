@@ -13,6 +13,9 @@
         android:id="@+id/trendy_mus"/>
     <fragment
         android:layout_width="fill_parent"
+        android:id="@+id/lista_museos"
+        android:layout_height="@dimen/abc_action_bar_content_inset_material"
+        android:name="com.example.angelo.cenart.fragments.list_mus"
         android:layout_below="@id/trendy_mus"
         android:layout_alignParentBottom="true"/>
 
